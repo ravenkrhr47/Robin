@@ -1,0 +1,13 @@
+h1{
+    font-size: 3em;
+    color: rgba(181, 191, 70, 0.4);/*Le 0.4 c'est le degrès d'opacité du rgb très utils pour insta */
+    background-color: rgba(59, 172, 175);/*C'est que le font que du titre qui et c'est tout */ 
+    padding: 150;/*C'est les marges d'interieur*/
+    background-image: url('../image/la-huppe-fasciee.jpg');
+    opacity: 0.2;
+    background-position: center;
+}
+
+body{/*Correpond au corp de texte ça modifie le fond du site web */ 
+    background-color: bisque;
+}
