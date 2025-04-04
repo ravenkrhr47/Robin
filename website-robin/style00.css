@@ -4,9 +4,12 @@ p  {
     text-align: left; 
     /* https://www.google.com/search?q=google+color+picker&client=safari&sca_esv=a702c171394dd447&rls=en&biw=1278&bih=730&ei=2y_bZ9bCOdrX7M8P5IO70AE&ved=0ahUKEwiWnJe4hJeMAxXaK_sDHeTBDhoQ4dUDCBI&uact=5&oq=google+color+picker&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2dvb2dsZSBjb2xvciBwaWNrZXIyBRAAGIAEMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSIwRUKIKWNMPcAJ4AZABAJgBUaABuAOqAQE2uAEDyAEA-AEBmAIIoAKABMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIHEAAYgAQYDcICCBAAGAcYChgewgIIEAAYExgHGB7CAgoQABgTGAcYChgemAMAiAYBkAYKkgcBOKAHlyeyBwE2uAftAw&sclient=gws-wiz-serp*/ 
     color: #000000;
-    background-color:#8387eb ;
+
     
 
+}
+body{
+    background-color: #1f2039;
 }
 
 h1{
@@ -15,23 +18,38 @@ h1{
     font-family:'Montserrat',sans-serif;
 }
 .title{
-    background-color: #665e48;
+    background-color: #ffffff;
+}
+.valeur{
+    
 }
 .valeur-class {
-    color:black;
+    color:rgb(255, 255, 255);
 }
 .valeur-c2{
     font-size: 23px;
-    color: black;
+    color: rgb(255, 251, 251);
 }
 .a{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .entete{
     background-color: white;
+    
+    
 }
-
+.carre{
+    width: 150px;
+    height: 15px;
+    color: #ffffff; /* couleur du texte */
+    border-radius: 50px;
+    background-color: #a5b4fc;
+    align-items: left;
+    text-align: center;
+    padding: 7px;
+    
+}
 
 
 
