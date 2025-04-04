@@ -11,3 +11,109 @@ h1{
 body{/*Correpond au corp de texte ça modifie le fond du site web */ 
     background-color: bisque;
 }
+.element {
+    border-top: 3px #EB5353 dotted;
+    border-right: 3px #F9D923 double;
+    border-bottom: 3px #36AE7C dashed;
+    border-left: 3px #187498 solid;
+}
+
+.element2{
+    font-size: 25px;
+    background-color: skyblue;
+    border-left: 5px #187498 solid;
+    padding: 10px;
+}
+.element3 {
+    font-size: 25px;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.element4{
+
+    font-size: 25px;
+
+    background-color: skyblue;
+
+    border-radius: 10px 30px 0px 90px;
+
+    padding: 10px;
+
+}/*https://9elements.github.io/fancy-border-radius
+
+/*Ajoutez une ombre portée avec la propriété CSS  box-shadow*/
+.element5{
+    font-size: 10px;
+    background-color: rgb(7, 43, 58);
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    padding: 15px;
+}
+.element6 {
+
+    font-size: 25px;
+
+    background-color: skyblue;
+
+    border-radius: 10px;
+
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+
+    padding: 15px;
+
+}
+/* Ajoutez une ombre à un texte avec  text-shadow */
+.element7{
+
+    font-size: 50px;
+
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+
+    padding: 10px;
+
+}
+/* 
+
+.element6 {
+
+🔹 Sélecteur : Cible les éléments HTML ayant la classe element6
+
+    font-size: 25px;
+
+🔹 Taille de police : Le texte dans l’élément fera 25 pixels de haut
+
+    background-color: skyblue;
+
+🔹 Couleur de fond : Un bleu ciel agréable (skyblue)
+
+    border-radius: 10px;
+
+🔹 Bordures arrondies : Les coins du bloc seront légèrement arrondis (10px)
+
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+
+🔹 Ombre portée :
+
+    Décalée de 6px à droite, 6px vers le bas
+
+    Flou de 25px
+
+    Couleur : noir (rgba(0,0,0,0.5)), avec une opacité de 50%
+
+    padding: 100px;
+
+🔹 Espacement intérieur : Il y a 100 pixels d’espace entre le bord de l’élément et son contenu (texte, etc.)*/
+
+
+/*Pseudo-class*/
+
+/*Pour que l'image change d'opacité quand on passe dessus*/
+img:hover{
+    opacity: 0.5;
+}
+/*Pour quand on passe sur l'élément 4  pseudo class hover quand on passe au dessus */
+.element4:hover{
+    opacity: 0.3;
+}
+/*pseudo class quand on clique dessus*/
